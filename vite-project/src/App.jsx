@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Resume from './Component/Resume'
 const App = () => {
   return (
-    <div className='text-3xl text-red-800'>App</div>
-  )
+ <div>
+  <Resume></Resume>
+ </div>
+    )
 }
 
 export default App
