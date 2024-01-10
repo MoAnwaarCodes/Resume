@@ -55,6 +55,54 @@ const Resume = () => {
         </div>
 
         <div className="bg-white p-6 rounded-md shadow-md">
+          <h2 className="text-2xl font-bold text-indigo-600 mb-2">Skills</h2>
+          <div className="flex flex-wrap">
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              HTML
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              CSS
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              HTML/CSS
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              JAVASCRIPT
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              REACT JS
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              JAVA
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              OOP
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              DSA
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              REACTNATIVE
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              GITHUB
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              GOOGLE DOCS
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              C# API
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              MS OFFICE
+            </button>
+            <button className="bg-gray-600 text-white rounded-md py-2 px-4 m-1">
+              SOCIAL MEDIA HANDLER
+            </button>
+          </div>
+        </div>
+
+        <div className="bg-white p-6 rounded-md shadow-md">
           <h2 className="text-2xl font-bold text-indigo-600 mb-2">
             Work Experience
           </h2>
@@ -74,54 +122,6 @@ const Resume = () => {
         </div>
 
         <div className="bg-white p-6 rounded-md shadow-md">
-          <h2 className="text-2xl font-bold text-indigo-600 mb-2">Skills</h2>
-          <div className="flex flex-wrap">
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              HTML
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              CSS
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              HTML/CSS
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              JAVASCRIPT
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              REACT JS
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              JAVA
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              OOP
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              DSA
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              REACTNATIVE
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              GITHUB
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              GOOGLE DOCS
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              C# API
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              MS OFFICE
-            </button>
-            <button className="bg-indigo-500 text-white rounded-md py-2 px-4 m-1">
-              SOCIAL MEDIA HANDLER
-            </button>
-          </div>
-        </div>
-
-        <div className="bg-white p-6 rounded-md shadow-md">
           <h2 className="text-2xl font-bold text-indigo-600 mb-2">
             CERTIFICATION
           </h2>
@@ -133,19 +133,41 @@ const Resume = () => {
             <strong>Artificial Intelligence (3 Months)</strong>
           </p>
           <p className="text-gray-700">2023 Summer WorkShop</p>
-       
-
-         </div>
+        </div>
 
         <div className="bg-white p-6 rounded-md shadow-md">
-          <h2 className="text-2xl font-bold text-indigo-600 mb-2">
-            Certifications
-          </h2>
-          <p className="text-gray-700">
-            <strong>Web Development Certification</strong>
-          </p>
-          <p className="text-gray-700">Issued by XYZ Institute, 2022</p>
-          {/* Add other certification entries similarly */}
+          <h2 className="text-2xl font-bold text-indigo-600 mb-2">LANGUAGES</h2>
+          <div className="flex justify-between">
+            <div>
+              <p className="text-gray-950">English</p>
+              <p className="text-gray-700">Limited Working Proficiency</p>
+            </div>
+            <div>
+              <p className="text-gray-950">Urdu</p>
+              <p className="text-gray-700">Full Professional Proficiency</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white p-6 rounded-md shadow-md">
+          <h2 className="text-2xl font-bold text-indigo-600 mb-2">INTERESTS</h2>
+          <div className="flex flex-wrap">
+            <button className="border border-gray-600 rounded-md py-2 px-4 m-1">
+              Web Development
+            </button>
+            <button className="border border-gray-600 rounded-md py-2 px-4 m-1">
+              Programming
+            </button>
+            <button className="border border-gray-600 rounded-md py-2 px-4 m-1">
+              Social Work
+            </button>
+            <button className="border border-gray-600 rounded-md py-2 px-4 m-1">
+              Traveling
+            </button>
+            <button className="border border-gray-600 rounded-md py-2 px-4 m-1">
+              Football
+            </button>
+          </div>
         </div>
       </div>
 
